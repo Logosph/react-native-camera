@@ -1,0 +1,452 @@
+[33md88edcb[m[33m ([m[1;36mHEAD -> [m[1;32mdeprecation-note[m[33m, [m[1;31morigin/deprecation-note[m[33m, [m[1;31morigin/HEAD[m[33m)[m Update README.md
+[33ma959bc7[m Update README.md
+[33m835be8f[m Update README.md
+[33me686713[m deprecate.
+[33m7cdfb6e[m chore(release): 4.2.1 [skip ci]
+[33m9c0b87e[m fix: Remove the `mCamera.setPreviewDisplay` call on surface destroy as it may cause ANRs or slow down the UI when unmounting.  The side effect of this is a nasty warning `BufferQueue has been abandoned` that can be ignored. (#3331)
+[33m0defb57[m chore(release): 4.2.0 [skip ci]
+[33mf7fbbbf[m feat: added hasTorch method (#3340)
+[33mb0b8669[m Update README.md (#3339)
+[33m6bc7eb7[m docs: updating README.MD
+[33m637c896[m chore(release): 4.1.1 [skip ci]
+[33m4523c06[m fix: default variable to empty string to match RN props (#3330)
+[33m8d3981c[m chore(release): 4.1.0 [skip ci]
+[33m7b897b0[m feat: implement onCameraReady event on Windows (#3324)
+[33m6e33553[m chore(release): 4.0.3 [skip ci]
+[33m01333a9[m fix: Missing TS type definition (#3320)
+[33m7891aec[m chore(release): 4.0.2 [skip ci]
+[33m5d36cf1[m fix: Improve surface destroy handling. (#3316)
+[33m6a2561b[m Merge pull request #3292 from Sidebook/fix-format-finding-condition
+[33m7b27b0f[m Merge branch 'master' into fix-format-finding-condition
+[33me602d80[m chore(release): 4.0.1 [skip ci]
+[33m381f958[m fix: Workaround for hardware JPEG rotation bug on some Samsung devices (#3305)
+[33m817e8fc[m fix the format finding logic when fps is specified
+[33m215b564[m chore(release): 4.0.0 [skip ci]
+[33mf72289f[m feat: migrate android to google ML Kit (#3272)
+[33m670b973[m feat: migrate to google ML Kit (#3241) [skip ci]
+[33m0359c32[m docs: Add links to alternative libraries (#3270)
+[33mdbe4272[m chore(release): 3.44.3 [skip ci]
+[33mafa7bb1[m fix: fast capture orientation. (#3269)
+[33mdf0418e[m chore(release): 3.44.2 [skip ci]
+[33m2be9213[m fix: handle file writing errors (#3268)
+[33m7108d69[m chore(deps): bump prismjs from 1.23.0 to 1.24.0 in /website (#3266)
+[33mba4d3a5[m chore(deps): bump color-string in /examples/advanced/advanced (#3262)
+[33ma0ae0e6[m chore(deps): bump set-getter from 0.1.0 to 0.1.1 in /website (#3261)
+[33m5bd45a0[m chore(deps): bump postcss from 7.0.35 to 7.0.36 in /website (#3258)
+[33m0c63324[m chore(deps): bump yargs-parser from 13.1.1 to 13.1.2 in /examples/mlkit (#3252)
+[33m99b6b90[m chore(deps): bump glob-parent from 5.1.1 to 5.1.2 (#3248)
+[33md9de5ae[m chore(deps): bump glob-parent from 5.1.1 to 5.1.2 in /examples/tests (#3251)
+[33m80320e0[m chore(deps): bump glob-parent in /examples/advanced/advanced (#3253)
+[33m5b4c16d[m chore(deps): bump trim-newlines from 3.0.0 to 3.0.1 (#3247)
+[33ma6e9567[m chore(deps): bump normalize-url from 5.1.0 to 5.3.1 (#3249)
+[33m80d8ae4[m chore(release): 3.44.1 [skip ci]
+[33m69b3c7f[m fix: swapped min/max labels in CameraModule.getSupportedPreviewFpsRange() output (#3246)
+[33mcc3b56a[m chore(release): 3.44.0 [skip ci]
+[33mf77ab1b[m feat: Improve hardware iOS orientation sensor usage. (#3113)
+[33md1b39d9[m chore(release): 3.43.9 [skip ci]
+[33m316ebed[m fix: crash for devices that does not support bitrate setup. (#3150)
+[33m4992839[m chore(release): 3.43.8 [skip ci]
+[33md055c5f[m Merge pull request #3196 from renatobenks/fix/type-prop-cameraid
+[33mf9be9ae[m Merge branch 'master' into fix/type-prop-cameraid
+[33m9468177[m chore: Updating security warnings (#3228)
+[33m776d428[m chore(deps): bump handlebars from 4.5.3 to 4.7.7 in /examples/mlkit (#3209)
+[33m98ceb47[m chore(release): 3.43.7 [skip ci]
+[33mc353ea2[m fix: typo at android toDegreeMinuteSecods method (#3226)
+[33ma001927[m chore(deps): bump lodash from 4.17.19 to 4.17.21 in /examples/basic (#3213)
+[33m5e9910f[m chore(deps): bump hosted-git-info from 2.8.5 to 2.8.9 in /examples/mlkit (#3216)
+[33m7173504[m chore(deps): bump hosted-git-info in /examples/advanced/advanced (#3218)
+[33mf6119b1[m chore(deps): bump hosted-git-info from 2.8.8 to 2.8.9 (#3220)
+[33mfeef359[m chore(deps): bump hosted-git-info from 2.7.1 to 2.8.9 in /examples/basic (#3219)
+[33md2ca258[m chore(deps): bump handlebars from 4.5.3 to 4.7.7 in /examples/basic (#3212)
+[33mb0f28a1[m chore(deps): bump lodash from 4.17.19 to 4.17.21 in /website (#3214)
+[33m1664bd3[m chore(deps): bump ua-parser-js in /examples/advanced/advanced (#3207)
+[33m4b3edf6[m chore(deps): bump ua-parser-js from 0.7.18 to 0.7.28 in /examples/basic (#3200)
+[33m2a2c692[m chore(deps): bump ua-parser-js from 0.7.21 to 0.7.28 in /examples/tests (#3204)
+[33mb9060d9[m chore(deps): bump lodash from 4.17.19 to 4.17.21 in /examples/mlkit (#3211)
+[33m9db0abf[m chore(deps): bump lodash from 4.17.19 to 4.17.21 in /examples/tests (#3203)
+[33m57911d6[m chore(deps): bump underscore in /examples/advanced/advanced (#3205)
+[33mbd29349[m chore(deps): bump handlebars in /examples/advanced/advanced (#3206)
+[33m1e37973[m chore(deps): bump lodash in /examples/advanced/advanced (#3208)
+[33m7d10c1b[m chore(deps): bump ua-parser-js from 0.7.21 to 0.7.28 (#3201)
+[33m36c3910[m chore(deps): bump ua-parser-js from 0.7.20 to 0.7.28 in /examples/mlkit (#3202)
+[33me020999[m fix(type definitions for typescript): add type to missing prop `cameraId` on camera component
+[33m8d2bd11[m chore(deps): bump ssri from 6.0.1 to 6.0.2 (#3189)
+[33m4a5556b[m chore(release): 3.43.6 [skip ci]
+[33mc04a339[m fix: Adding mavenCentral() as jcenter() is shutting (#3188)
+[33m9415365[m chore(release): 3.43.5 [skip ci]
+[33mb579e8e[m fix: error handling android (#3179)
+[33mb215648[m chore(release): 3.43.4 [skip ci]
+[33mf8ee52b[m fix: rect of interest issue  (#3176)
+[33m853c5e0[m Update RNCamera.md (#3174)
+[33mdd33fcc[m chore(deps): bump y18n in /examples/advanced/advanced (#3165)
+[33m94f7c5b[m chore(release): 3.43.3 [skip ci]
+[33mb102e1c[m fix: iOS mirroring video always outputs low quality video (#3172)
+[33m522f3f1[m chore(deps): bump y18n from 3.2.1 to 3.2.2 (#3162)
+[33m42f6d02[m chore(release): 3.43.2 [skip ci]
+[33m01e75ef[m fix: iOS captureAudio race condition fix (#3168)
+[33m3bb92dc[m chore(deps): bump y18n from 4.0.0 to 4.0.1 in /examples/tests (#3169)
+[33med84c27[m chore(deps): bump y18n from 4.0.0 to 4.0.1 in /examples/mlkit (#3161)
+[33m15fce86[m chore(deps): bump y18n from 3.2.1 to 3.2.2 in /examples/basic (#3163)
+[33m637080a[m chore(release): 3.43.1 [skip ci]
+[33m38403de[m fix: Use release instead of close to support to prevent issues from SDKs < 29. (#3156)
+[33mc591e9d[m chore(deps): bump prismjs from 1.21.0 to 1.23.0 in /website (#3136)
+[33m0973d0f[m chore(release): 3.43.0 [skip ci]
+[33m8aad81d[m feat: android method to check for corrupted videos (#3087)
+[33m0046582[m chore(release): 3.42.3 [skip ci]
+[33mbed16e9[m fix: Use empty string for undefined cameraId (#3117)
+[33m6a81dea[m docs: Update react-navigation.md (#3106)
+[33m8d7b4a8[m chore(release): 3.42.2 [skip ci]
+[33me56b0f7[m fix: spelling: "Tab" -> "Tap" (#3107)
+[33m7cb7979[m chore(release): 3.42.1 [skip ci]
+[33me6b8417[m fix: Remove exif thumbnail generation that may affect some devices. (#3103)
+[33m366d415[m Merge pull request #3102 from cristianoccazinsp/upgrade-exif
+[33m39a017e[m update exif dependency
+[33m2649b71[m example: Update build.gradle (#3093)
+[33m743b140[m chore: example Update Podfile (#3083)
+[33m30967b9[m chore(release): 3.42.0 [skip ci]
+[33m7638c64[m feat: Take pictures in PNG format on iOS (#2785)
+[33ma2f3f5d[m chore(release): 3.41.0 [skip ci]
+[33m19d6865[m feat: [Android] add playSoundOnRecord (#3065)
+[33m5b318c1[m chore(release): 3.40.5 [skip ci]
+[33mc2bb6ba[m fix: Enable multidexing to fix #3029 (#3030)
+[33mf632e34[m chore(release): 3.40.4 [skip ci]
+[33md569892[m fix: face detection on iOS (#2992)
+[33m0aad459[m chore(release): 3.40.3 [skip ci]
+[33mcec34fe[m fix(android): Prevent deleting exifData after saving it to the response (#2833)
+[33mc931fa9[m chore(release): 3.40.2 [skip ci]
+[33m4381f34[m fix: call onDoubleTap instead of onTap on native double tap (#3009)
+[33m76f9486[m chore(release): 3.40.1 [skip ci]
+[33m841e27a[m fix: calculation for RNW root folder (#3052)
+[33m460a953[m Merge pull request #3025 from react-native-camera/dependabot/npm_and_yarn/semantic-release-17.2.3
+[33m6419267[m chore(deps-dev): bump semantic-release from 17.1.1 to 17.2.3
+[33mfc4f3f7[m Merge pull request #2969 from react-native-camera/dependabot/npm_and_yarn/examples/advanced/advanced/yargs-parser-13.1.2
+[33m7a4c056[m chore(deps): bump yargs-parser in /examples/advanced/advanced
+[33mdd097e2[m Merge pull request #3002 from react-native-camera/dependabot/npm_and_yarn/npm-user-validate-1.0.1
+[33mcbb96f2[m chore(deps): bump npm-user-validate from 1.0.0 to 1.0.1
+[33m95e3bf1[m Merge pull request #3034 from react-native-camera/dependabot/npm_and_yarn/website/highlight.js-9.18.5
+[33meae1cb2[m chore(deps): bump highlight.js from 9.15.8 to 9.18.5 in /website
+[33mbfeb271[m Merge pull request #3073 from react-native-camera/dependabot/npm_and_yarn/examples/basic/ini-1.3.8
+[33macd1222[m chore(deps): bump ini from 1.3.5 to 1.3.8 in /examples/basic
+[33m468b041[m Merge pull request #3074 from react-native-camera/dependabot/npm_and_yarn/examples/mlkit/ini-1.3.8
+[33m1e2023d[m chore(deps): bump ini from 1.3.5 to 1.3.8 in /examples/mlkit
+[33maf00707[m Merge pull request #3075 from react-native-camera/dependabot/npm_and_yarn/ini-1.3.8
+[33mb3c53aa[m chore(deps): bump ini from 1.3.5 to 1.3.8
+[33mb4e85e5[m chore(deps): bump ini from 1.3.5 to 1.3.7 in /website (#3049)
+[33m42388be[m Merge pull request #3005 from doranteseduardo/master
+[33m4b65edf[m Fixed documentation URL
+[33md973dba[m improve
+[33mb015311[m Looking for Maintainers
+[33m819ba0d[m chore(release): 3.40.0 [skip ci]
+[33m43f2a0f[m feat(ios): Optimize invertColors / fix memory leak (#2955)
+[33m90ec544[m chore(deps): bump logkitty in /examples/advanced/advanced (#2976)
+[33m5c1187e[m chore(release): 3.39.1 [skip ci]
+[33m1e7152e[m fix: Xcode 12 compatibility (#2975)
+[33md5e74c0[m chore(release): 3.39.0 [skip ci]
+[33mbde54e0[m chore(deps): bump handlebars in /examples/advanced/advanced (#2968)
+[33m1d876ef[m feat(upgrade): upgrade deps (#2967)
+[33ma6a7a9b[m chore(deps): bump decompress from 4.2.0 to 4.2.1 in /website (#2962)
+[33m27dbe43[m chore(deps): bump @hapi/hoek in /examples/advanced/advanced (#2965)
+[33m641ae75[m chore(release): 3.38.0 [skip ci]
+[33mb990a24[m feat(windows): updates for RNW 0.63 (#2960)
+[33mf4f6352[m chore(release): 3.37.0 [skip ci]
+[33m7109ac7[m feat(ios): Reset cached exposure limits to avoid a crash. (#2948)
+[33m4763777[m fix(android): Fix camera parameters getting lost on setting focus. (#2946)
+[33m628c416[m feat(android): Document `pictureSize` and make sure Camera1 implementation uses it appropriately. (#2945)
+[33md709204[m chore(release): 3.36.0 [skip ci]
+[33m5a3af65[m chore(deps): bump prismjs from 1.16.0 to 1.21.0 in /website (#2939)
+[33m2782a24[m feat(windows): added barcode scanning support (#2930)
+[33mbec91a4[m chore(release): 3.35.0 [skip ci]
+[33m20c62fb[m feat(android): use FOCUS_MODE_MACRO if FOCUS_MODE_CONTINOUS_PICTURE is not available and device is scanning (#2912)
+[33m5a27a36[m chore(release): 3.34.0 [skip ci]
+[33m0df72c3[m feat(android): onBarCodeRead should also send raw photo bytes, fixed #2786 (#2923)
+[33mc3159aa[m chore(release): 3.33.0 [skip ci]
+[33m360a5b0[m feat(android): Added pause and resume recording (#2911)
+[33m951fcbd[m chore(release): 3.32.0 [skip ci]
+[33m0d90e84[m chore(deps): bump lodash from 4.17.15 to 4.17.19 in /examples/tests (#2902)
+[33me78242b[m chore(deps): bump lodash from 4.17.15 to 4.17.19 in /examples/mlkit (#2900)
+[33m2d7985a[m chore(deps): bump lodash in /examples/advanced/advanced (#2903)
+[33mf3d6d7d[m chore(deps): bump lodash from 4.17.14 to 4.17.19 in /examples/basic (#2899)
+[33m93e6581[m feat(windows): updated for react-native-windows 0.62 (#2882)
+[33md62da5f[m chore(deps): bump lodash from 4.17.14 to 4.17.19 in /website (#2901)
+[33ma1ba225[m chore(release): 3.31.1 [skip ci]
+[33m7c796bf[m fix: Fix (iOS) Fixed RNCameraManager.m (#2895)
+[33mbd4a701[m chore(deps): bump npm from 6.13.4 to 6.14.6 (#2891)
+[33me1462ea[m chore(release): 3.31.0 [skip ci]
+[33m9675813[m feat(ios): Remove artificial throttling of barcode scanning (#2884)
+[33m7706ccb[m chore(release): 3.30.0 [skip ci]
+[33mb738f41[m Merge pull request #2865 from rfischer/feat/advanced-example-whitebalance
+[33m0c78f03[m docs: Merge pull request #2868 from luism3861/fix-scroll-links-api-page
+[33m6f43326[m fix scroll links Api page in website docs
+[33me11918c[m refactor: removed duplicated check for custom white balance
+[33mbb774ea[m Update examples/advanced/advanced/src/screens/Camera.js
+[33m945e97a[m Update examples/advanced/advanced/src/screens/Camera.js
+[33m042880a[m Update examples/advanced/advanced/src/screens/Camera.js
+[33m3ba989e[m chore(release): 3.29.0 [skip ci]
+[33m263b34e[m fix(ios): fixed app crash on barcode detection without FirebaseMLVision (#2866)
+[33mdcbbbf4[m feat(ios): Return the image containing barcodes (iOS only) (#2864)
+[33m134173f[m feat(ios): enhanced advanced example project
+[33mc434051[m Merge pull request #2861 from manishkumar03/master
+[33mac76480[m Update RNCameraManager.m
+[33m2639333[m Merge pull request #2858 from react-native-community/dependabot/npm_and_yarn/website/websocket-extensions-0.1.4 [skip ci]
+[33m485d098[m chore(deps): bump websocket-extensions from 0.1.3 to 0.1.4 in /website
+[33mf5e6826[m chore(release): 3.28.0 [skip ci]
+[33mcec7926[m Merge pull request #2774 from rfischer/feat/advanced-camera-settings
+[33m8c9d1e8[m chore(release): 3.27.1 [skip ci]
+[33ma416a75[m Merge pull request #2856 from react-native-community/fix/googlevision-barcode-mode-mlkit-example
+[33m633322e[m fix(googlevision barcode mode): exposes correctly the barcode mode uses
+[33m2071236[m fix(mlkit example): fixes the bad uses of googlevision barcode mode
+[33m250d98c[m chore(release): 3.27.0 [skip ci]
+[33mfa61fce[m feat(ios): Add ability to scan inverted-color barcodes on iOS using Google Vision (#2851)
+[33mee88b38[m Merge pull request #2749 from react-native-community/dependabot/npm_and_yarn/acorn-5.7.4
+[33m9463bbc[m Merge pull request #2746 from react-native-community/dependabot/npm_and_yarn/examples/advanced/advanced/acorn-5.7.4
+[33mffed435[m Merge pull request #2744 from react-native-community/dependabot/npm_and_yarn/examples/mlkit/acorn-5.7.4
+[33m9478d15[m chore(deps): bump acorn in /examples/advanced/advanced
+[33mde1d776[m chore(deps): bump acorn from 5.7.3 to 5.7.4 in /examples/mlkit
+[33mb130991[m chore(deps): bump acorn from 5.7.1 to 5.7.4
+[33m0f4107e[m Merge pull request #2743 from react-native-community/dependabot/npm_and_yarn/examples/basic/acorn-5.7.4
+[33m815cb08[m fix: merge cleanup
+[33m9520157[m Merge branch 'master' into feat/advanced-camera-settings
+[33me55893b[m chore(release): 3.26.0 [skip ci]
+[33m04e6f06[m feat(android): expose an ability to change the frames per second  (#2834)
+[33m0641fc1[m chore(release): 3.25.0 [skip ci]
+[33mdc4f657[m feat(touch): Feature/add on tap events (#2827)
+[33mb6f9bb3[m chore(release): 3.24.2 [skip ci]
+[33m970248c[m ci: Merge pull request #2831 from MateusAndrade/ci-react-native-orb
+[33md496438[m fix: adding downloadDependencies task to android projects
+[33m802b56d[m ci: changing circle to use rn-orb
+[33m2f57436[m chore(release): 3.24.1 [skip ci]
+[33ma5b55fa[m fix(ios): add missing semicolon in RNCamera.m (#2823)
+[33m611fd9e[m chore(release): 3.24.0 [skip ci]
+[33mce79135[m feat(android): Update Gradle Wrapper and plugin, fix files (#2818)
+[33me02890c[m fix(ios): instance-method-conflict warning (#2817)
+[33m5b32936[m feat(zoom): Feature/add native zoom (#2815)
+[33mec84aa9[m Merge pull request #2802 from kaiguo/windows-fix
+[33m77c0d0f[m Windows fixes
+[33m48a3a4d[m Merge pull request #2797 from wolverineks/master
+[33m868d0fb[m test: fix broken tests
+[33m7b3c542[m chore: remove unused files
+[33m3e94912[m test: add more on-device tests (#2795)
+[33mcc9a271[m chore(release): 3.23.1 [skip ci]
+[33m45308c1[m fix(types): updated types as per RN 0.62 version of @types/react-native (#2794)
+[33m56cfa47[m chore(release): 3.23.0 [skip ci]
+[33mcb79f53[m feat(test): add on-device tests (#2792)
+[33m296045e[m chore(release): 3.22.1 [skip ci]
+[33mbaf6f9f[m fix(android): Fix image path on Android, and add iOS implementation. (#2782)
+[33m85b951c[m fix(android): Fix Android Camera1 race condition crash (#2781)
+[33mbfe04aa[m chore(release): 3.22.0 [skip ci]
+[33m9c18c25[m feat(example): Fix basic example bugs (#2751)
+[33m3ee43d4[m feat(android): Accept path while taking picture in android (#2769)
+[33md59f5a0[m refactor: lock and unlock device
+[33m68953bc[m feat(ios): refactoring
+[33m090f739[m feat(ios): fixed linter warning
+[33m910c69a[m feat(ios): added customWhiteBalance to docs
+[33me7ed948[m Merge pull request #2768 from cristianoccazinsp/android-crash-camerainfo
+[33m0111237[m Crash fix when getCameraInfo fails
+[33md1e3d66[m Merge pull request #2765 from tribou/tracked-text-feature-type
+[33m9e9e12b[m feat(ios): added CustomWhiteBalance type
+[33m86e8053[m Fix TrackedTextFeature TS type
+[33m3a91036[m feat(ios): check min/max gain values
+[33mf4965cf[m feat(ios): check if white balance mode locked is supported
+[33me9af04a[m chore(release): 3.21.0 [skip ci]
+[33m353eece[m Merge pull request #2757 from fabriziobertoglio1987/fix/circle-ci-node-crash
+[33m1f29ffb[m feat(example): fix circleci error
+[33m8c2100d[m feat(ios): customize white balance added possibility to customize white balance settings (temperature, tint, rgb gains offset)
+[33m4c54bd5[m chore(release): 3.20.0 [skip ci]
+[33mf11136a[m Merge pull request #2755 from fabriziobertoglio1987/fix/delete-additional-examples
+[33m8e4d36a[m feat(example): remove rectOfInterest example
+[33md477f4c[m chore(release): 3.19.2 [skip ci]
+[33m0afc608[m Merge pull request #2748 from cristianoccazinsp/fix-android-shutter-sound
+[33m18d9347[m improve camera2 to camera1 fallback on legacy devices.
+[33m0911852[m Use same method to play sounds for consistency and so it works across multiple devices.
+[33m1f89548[m move shutter sound to right location
+[33m4c75744[m prevent duplicated start calls (#2521)
+[33m886a3bb[m Fixes for Camera1 and Camera2 shutter sound.
+[33m9f2796d[m chore(deps): bump acorn from 5.7.3 to 5.7.4 in /examples/basic
+[33mfb2105c[m Merge pull request #2740 from lihroff/master
+[33m43a7323[m Merge pull request #2719 from bqwang91/master
+[33m407295b[m fix(android): fix empty popup
+[33m944c304[m Merge pull request #2737 from stvdrsch/master
+[33m745e8de[m Typo
+[33m38c5197[m chore(release): 3.19.1 [skip ci]
+[33m4a1cfa5[m Merge pull request #2723 from ddalp/master
+[33me76faae[m Merge pull request #2735 from fabriziobertoglio1987/fix/basic-example-rn-cli-config
+[33m7c7124d[m Move ReactCameraConstants under a class and fix typo
+[33m4522841[m fix(android): fix bug Duplicate module rn
+[33m51a4927[m Address PR comments
+[33m72f2dc9[m Add Cpp/WinRT camera module support for React Native Windows
+[33m583507f[m update cam view height
+[33m3f801ee[m add example
+[33mea0e9e6[m chore(release): 3.19.0 [skip ci]
+[33md60d201[m feat(ios): Expose an ability to change the frames per second via an fps option in record. (#2711)
+[33m398ac12[m fix typo
+[33m3f66aa5[m update RNcamera readme
+[33m802ce47[m add types
+[33m6cc8fef[m add aupport for limiting scan area for Android
+[33madae4a2[m chore(release): 3.18.0 [skip ci]
+[33mc7e92b2[m feature(record): On recording start and end events (#2702)
+[33mba0e427[m feat(android): stop/release camera in non-UI thread (#2685)
+[33mc683076[m chore(release): 3.17.0 [skip ci]
+[33m7c2572d[m fix(record): android crash fix (#2697)
+[33m9b4af8e[m feat(codec): move codec, max duration, and max file size settings to the session queue. (#2694)
+[33m7806f84[m chore(release): 3.16.0 [skip ci]
+[33m8761fe0[m Merge pull request #2684 from jackiewung/patch-1
+[33mea05b14[m add pictureSize type
+[33mcd4c8f2[m feat(RNCameraManager): expose videoStabilizationMode from native (#2681)
+[33mdea3371[m fix(android): crash fix for android sdk < 18 (#2674)
+[33mb575388[m chore(release): 3.15.1 [skip ci]
+[33mdb7b9e4[m fix(android): android  crash fixes. Make sure no unsupported aspect ratio is used, and do not crash when there are no cameras available. (#2662)
+[33md84127f[m Merge pull request #2650 from kant/patch-1
+[33macfa7bd[m Merge pull request #2657 from react-native-community/docs/api
+[33m5de4bc5[m Merge pull request #2659 from react-native-community/dependabot/npm_and_yarn/handlebars-4.5.3
+[33m1fa0441[m chore(deps): bump handlebars from 4.1.2 to 4.5.3
+[33m2788b9d[m Merge pull request #2658 from react-native-community/dependabot/npm_and_yarn/examples/basic/handlebars-4.5.3
+[33mfc387c2[m chore(deps): bump handlebars from 4.1.2 to 4.5.3 in /examples/basic
+[33me274842[m Merge pull request #2651 from kant/patch-2
+[33m84cf1df[m Merge pull request #2655 from MateusAndrade/fix-ci-build
+[33m81fcbcc[m ci: adding clean to gradlew scripts
+[33mae687d0[m Merge pull request #8 from react-native-community/master
+[33m2cde2e7[m Docs: Added several properties and collected the methods into an index
+[33m2bb2540[m Fixed typo on line 91
+[33me7aa6a3[m Semantic issue on line 50
+[33m44661fc[m chore(deps): bump npm from 6.4.1 to 6.13.4 (#2643)
+[33mc235435[m chore(release): 3.15.0 [skip ci]
+[33m7abf3f7[m feat(ios): Make camera ready events to fire also on camera/device change to be consistent with Android. Fire unmount error when session or device fails to start. Update advanced example app to use camera ready event instead. (#2642)
+[33m0745fb9[m chore(release): 3.14.0 [skip ci]
+[33mfe5d11d[m feat(iOS): allow for audio session to be kept (#2636)
+[33m8c6a26f[m fix(android): Fix Objects.equals that is only available after API 19 (#2635)
+[33m047bbea[m fix(ts): fixed incorrect type definition file path (#2622)
+[33md8cf6c9[m feat(android): Load Android Gradle Plugin conditionally (#2623)
+[33m1f8b863[m feat(android): restore state when useCamera2api is enabled (#2603)
+[33mfe84811[m feat(docs): update onBarCodeRead on Android and add additional SubView library (#2616)
+[33m72c5624[m fix(example): fixes and updates in mlkit example (#2618)
+[33m0af8ea9[m chore(release): 3.13.1 [skip ci]
+[33m32355f4[m fix(android): barcode option passing to mlkit for Android (#2614)
+[33mc728529[m chore(release): 3.13.0 [skip ci]
+[33m3f1334c[m feat(types): Add "URL" to Barcode types & export additional TS types (#2613)
+[33mecb2071[m chore(release): 3.12.0 [skip ci]
+[33ma39e8a8[m feat(docs): Feature/simplify installtion (#2606)
+[33mb3d0ebe[m fix(ios): camera is not detecting any faces (#2611)
+[33m168b3ee[m fix onBarcodeRead (#2604)
+[33me47ffb5[m Add required steps for android when using rn60 (#2602)
+[33m36ba510[m chore(release): 3.11.1 [skip ci]
+[33me35cc2d[m fix(mlkit): implement proper RNFaceDetectorModuleMLKit if FirebaseMLVision is una… (#2599)
+[33m92525f2[m chore(release): 3.11.0 [skip ci]
+[33maa22fd1[m feat(exif): Implement writeExif for iOS, Android improvements (#2577)
+[33m7fa631f[m chore(release): 3.10.0 [skip ci]
+[33m7c1284f[m feat(npm): ignore docs and publish 3.11.0
+[33maa0e2a9[m feat(npm): ignore website when publishing to npm, manual bump
+[33mcd0ca06[m feat(docs): update example readme and ios splash screen text (#2589)
+[33meece04a[m feat(ts): Update index.d.ts (#2590)
+[33mad9d084[m fix(android): Possible ANR due to events not fired on the main thread (#2591)
+[33m9c6fcea[m feat(example): New example app using RN 0.61, native-base, and react-navigation. (#2588)
+[33mffbd805[m feat(ios): Handle audio interruption in session queue. This prevents the session isRunning flag from getting corrupted due to concurrent updates to the session. (#2567)
+[33mbe8a08c[m fix(android): fix possible crash when attempting to retrieve camera parameters. (#2570)
+[33mfabacb4[m feat(ios): Preserve exif/metadata on photo capture. (#2573)
+[33m81563d7[m feat(docs): update react-navigation doc (#2574)
+[33mcc3016f[m doc(tidelift): add security section on readme
+[33m4eb67c7[m chore(release): 3.9.0 [skip ci]
+[33m59dfdb6[m feat(Ios): handle audio interruptions (#2565)
+[33m8f4601b[m fix(ios): Fix for a possible crash when changing devices and changing focus. If the new device resets the focus, "defocusing" might not be possible if the new device does not support auto focus. For this reason, we need to do a different cleanup on the focus and exposed flags and events. (#2557)
+[33m87774dd[m feat(android): Android ui thread (#2560)
+[33m0158ebf[m chore(release): 3.8.0 [skip ci]
+[33m255e19e[m doc(tidelift): add tidelift for enterprise
+[33m20e0486[m feat(android): support null object of androidPermissionOptions to avoid request window (#2551)
+[33m4705834[m feat(ci): CircleCI Fix & Optimizations (#2550)
+[33m28e8ad5[m feat(readme): improve tidelift
+[33m7abc7c2[m feat(torch): Torch fixes for iOS and a few nil checks. (#2543)
+[33mdb8ce26[m fix(ios): Honor captureAudio flag by not requesting audio input if set to false. (#2542)
+[33mb74d31f[m chore(release): 3.7.2 [skip ci]
+[33m127da64[m fix(ios): Remove flickering due to audio input (#2539)
+[33m6b7d7f4[m feature(ios): Ios exposure poi (#2514)
+[33mae39003[m chore(release): 3.7.1 [skip ci]
+[33m686ed2b[m fix(android): Add synchronized checks on some code that might cause issues if called concurrently. (#2526)
+[33mdd6c5a4[m chore(release): 3.7.0 [skip ci]
+[33m58f3b3e[m feat(ios): Add cameraId feature to iOS and various bug fixes (#2510)
+[33m18c00ef[m Merge pull request #2516 from ErickMaeda/patch-1
+[33m68c3e3b[m Add Info.plist format on README.md
+[33me533d50[m chore(release): 3.6.0 [skip ci]
+[33m612cb65[m feat(android): Support to enumerate and select Camera devices (#2492)
+[33m200c7e1[m chore(release): 3.5.0 [skip ci]
+[33m702f608[m fix(android): Update Camera1 to not crash on invalid ratio (#2501)
+[33m38a5ffb[m feat(ios): videoBitrate option for iOS (#2504)
+[33m0026b46[m Fix jitpack.io maven link (#2497)
+[33m204da4f[m Merge pull request #2495 from cristianoccazinsp/patch-1
+[33m6537149[m Use a more appropriate orientation change event
+[33m17293f7[m chore(release): 3.4.0 [skip ci]
+[33ma20eb06[m feat(android): Improve Android Camera1 error and concurrency handling. (#2471)
+[33madd1c0c[m Merge pull request #2474 from luancurti/chore/upgrade-gradle-version
+[33m1d6a2ef[m chore(gradle): upgrade gradle version
+[33m6e14c0b[m chore(release): 3.3.3 [skip ci]
+[33m57bf513[m fix(android): Fix app freeze on app/host pause on Android. Fix is quite simple, recording has to be stopped before the camera preview. (#2467)
+[33m654f1b2[m chore(release): 3.3.2 [skip ci]
+[33m497e4a2[m fix(android): Add an additional error check to avoid crashes on Android. This fix comes from testing on multiple devices, where for some unknown reason the decode process fails and returns null and the app crashes immediately due to a null pointer exception. This attempts to handle this issue more gracefully. (#2446)
+[33mea935bd[m chore(release): 3.3.1 [skip ci]
+[33m0323eaa[m fix(android): android-mlkit barcode bounds are inaccurate (#2462)
+[33m07781ff[m Merge pull request #2459 from react-native-community/dependabot/npm_and_yarn/website/mixin-deep-1.3.2
+[33mc4549d9[m chore(deps): bump mixin-deep from 1.3.1 to 1.3.2 in /website
+[33m186d512[m Merge pull request #2447 from react-native-community/dependabot/npm_and_yarn/eslint-utils-1.4.2
+[33mc4d8621[m Merge pull request #2452 from react-native-community/dependabot/npm_and_yarn/examples/basic/mixin-deep-1.3.2
+[33m481e7d9[m Merge pull request #2453 from react-native-community/dependabot/npm_and_yarn/mixin-deep-1.3.2
+[33m9080bc8[m Merge pull request #2454 from react-native-community/dependabot/npm_and_yarn/examples/mlkit/mixin-deep-1.3.2
+[33m368f2d0[m chore(deps): bump mixin-deep from 1.3.1 to 1.3.2 in /examples/mlkit
+[33m9c534b0[m chore(deps): bump mixin-deep from 1.3.1 to 1.3.2
+[33m7a3c8a1[m chore(deps): bump mixin-deep from 1.3.1 to 1.3.2 in /examples/basic
+[33m6d7e6e4[m Merge pull request #2448 from jaideepghosh/master
+[33m1530b88[m fix:Add CAMERA permission for Android.
+[33m56c824e[m chore(deps): bump eslint-utils from 1.3.1 to 1.4.2
+[33mc62be1e[m chore(release): 3.3.0 [skip ci]
+[33mccd6f0b[m feat(android): Add exposure (brightness) support for iOS and standardize exposure value (#2419)
+[33m70c8cbd[m chore(release): 3.2.1 [skip ci]
+[33mc9402b2[m fix(ios): for issue #2434 (#2439)
+[33m8c93ebd[m chore(release): 3.2.0 [skip ci]
+[33mb47b80d[m feat(ios): rectOfInterest (#1852)
+[33mb90c58b[m chore(release): 3.1.2 [skip ci]
+[33m3407533[m fix(android): This update does two things in order to fix #2420 and #2421. (#2427)
+[33m54e7dc1[m chore(release): 3.1.1 [skip ci]
+[33madac26f[m fix(ios): wrap captureStillImageAsynchronouslyFromConnection with try/catch (#2056)
+[33m90225a9[m chore(release): 3.1.0 [skip ci]
+[33mefb6b90[m feat(android): get format for android (#2410)
+[33m1724ec3[m chore(release): 3.0.2 [skip ci]
+[33mc93e92f[m fix(android): use initial exposure value (#2418)
+[33m75d093d[m chore(deps): bump merge from 1.2.0 to 1.2.1 in /examples/basic (#2407)
+[33m0f0d429[m chore(deps): bump js-yaml from 3.10.0 to 3.13.1 (#2408)
+[33m14fa646[m chore(deps): bump morgan from 1.9.0 to 1.9.1 (#2406)
+[33meef42fd[m chore(deps): bump handlebars from 4.1.0 to 4.1.2 in /examples/mlkit (#2405)
+[33m9b3db84[m chore(deps): bump js-yaml from 3.12.1 to 3.13.1 in /examples/mlkit (#2404)
+[33m1bf2917[m chore(deps): bump js-yaml from 3.12.0 to 3.13.1 in /examples/basic (#2403)
+[33m3682aac[m Merge pull request #2409 from react-native-community/dependabot/npm_and_yarn/fstream-1.0.12
+[33mf8abad8[m chore(deps): bump fstream from 1.0.11 to 1.0.12
+[33m919cda2[m chore(release): 3.0.1 [skip ci]
+[33ma01187d[m fix: App name shouldn't be equal to the registered application (#2393)
+[33mc748b4e[m fix(android): Support writing custom Exif tags to modified image file (#2402)
+[33m66e99d8[m fix(exif): writing EXIF data with correct data type (#2396)
+[33m3786223[m fix(android): prevent crash when using Camera2 with autoFocusPointOfInterest (#2401)
+[33mc90d86b[m chore(release): 3.0.0 [skip ci]
+[33m2f6f8e6[m feat(docs): add docs link on readme and also publish v3 to support androidX
+[33mce5311c[m Merge pull request #2328 from xaphod/bugfix/ios-crash-on-error
+[33m2a4dcf3[m chore(deps): bump lodash.template from 4.4.0 to 4.5.0 (#2368)
+[33m9648113[m chore(deps): bump lodash from 4.17.11 to 4.17.14 in /examples/basic (#2369)
+[33m4813cf3[m chore(deps): bump lodash from 4.17.11 to 4.17.14 in /examples/mlkit (#2370)
+[33m0d4f9fa[m chore(deps): bump lodash from 4.17.11 to 4.17.14 in /website (#2373)
+[33mc3f371a[m chore(deps): bump lodash.merge from 4.6.1 to 4.6.2 in /website (#2367)
+[33m409d2a9[m break(androidX): upgrading to sdk 28 and androidx (#2068) (#2306)
+[33m7699f52[m chore(release): 2.11.1 [skip ci]
+[33m00e9c32[m fix: LinkingLibrariesWindows.md link (#2365)
+[33me6469bb[m Merge pull request #2332 from MateusAndrade/chore/androind-permission-example
+[33m2facf5c[m Merge pull request #2339 from canozinci/canozinci-patch-1
+[33mde88f74[m Update RNCamera.m
+[33ma12198b[m chore(camera-access): permission android Mlkit
+[33m1cd20cd[m chore(camera-access): change prop to  androidCameraPermissionOptions
+[33m4075cdf[m Update README.md
+[33m9b99e66[m Update README.md
+[33mcb73ffd[m Merge pull request #7 from react-native-community/master
+[33m7ea241f[m Fix two crashes on iOS where error leads to runSession being called before commitConfiguration
+[33ma77b64c[m Updating README with RN Camera instruction for iOS simulator (#2326)
+[33m47ab6b3[m chore(release): 2.11.0 [skip ci]
+[33md5d849c[m Merge pull request #2322 from castillobgr/fix-onStatusChange-type
+[33m85b6431[m Fixes type of the onStatusChange callback in types/index.d.ts
+[33m117c2a5[m Merge pull request #6 from react-native-community/master
+[33m3e715b1[m feat(funding): add FUNDING.yml [skip ci]
+[33m4fe18a5[m Merge pull request #2314 from MateusAndrade/hotfix/setting-gh-token-doc
+[33mb891b1a[m fix(docs-ci): setting GH_TOKEN_DOCS to deploy docs
+[33m4d01c8e[m Merge pull request #5 from react-native-community/master
